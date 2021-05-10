@@ -10,7 +10,7 @@ A collection of default settings for new C# .NET repositories
 
 ## Project Configuration
 
-You can find example project configurations in the Example solution in the `test` branch
+You can find example project configurations in the [test](https://github.com/build-ship-repeat/dotnet-start/tree/test) branch.
 
 ### Configure a .NET Project With Style
 
