@@ -4,7 +4,7 @@ A collection of default settings for new C# .NET repositories
 
 - [.editorconfig](https://editorconfig.org) and [.gitattributes](https://www.git-scm.com/docs/gitattributes) from [Roslyn](https://raw.githubusercontent.com/dotnet/roslyn/master/.editorconfig)
 - [.gitignore](https://git-scm.com/docs/gitignore) adapted from [GitHub Visual Studio](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore)
-- Global C# language version using [Directory.Build.props](https://docs.microsoft.com/en-us/visualstudio/msbuild/customize-your-build)
+- Global C# language version and [Nullable](https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references#nullable-contexts) configuration using [Directory.Build.props](https://docs.microsoft.com/en-us/visualstudio/msbuild/customize-your-build)
 - Minimum .NET SDK version using [global.json](https://docs.microsoft.com/en-us/dotnet/core/tools/global-json)
 - [StyleCop](https://github.com/DotNetAnalyzers/StyleCopAnalyzers) configuration to match `.editorconfig`
 
