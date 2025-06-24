@@ -14,7 +14,7 @@ You can find example project configurations in the [test](https://github.com/bui
 
 ### Configure a .NET Project With Style
 
-Add the [StyleCop.Analyzers NuGet package](https://www.nuget.org/packages/StyleCop.Analyzers) to your project.
+Add the relevant [StyleCop.Analyzers NuGet package](https://www.nuget.org/packages/StyleCop.Analyzers) to your project.
 Then add the following to your .csproj file:
 
 ```xml
@@ -23,11 +23,6 @@ Then add the following to your .csproj file:
     <AdditionalFiles Include="..\..\stylecop.json">
       <Link>CodeStyle\stylecop.json</Link>
     </AdditionalFiles>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="..\..\GlobalSuppressions.cs">
-      <Link>CodeStyle\GlobalSuppressions.cs</Link>
-    </Compile>
   </ItemGroup>
 
 ```
@@ -40,7 +35,7 @@ The above assumes your directory structure to be like `src/my-project`.
 ```xml
 
  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
@@ -52,7 +47,7 @@ The above assumes your directory structure to be like `src/my-project`.
 ```xml
 
  <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>$(NoWarn),1573,1591,1712</NoWarn>
   </PropertyGroup>
