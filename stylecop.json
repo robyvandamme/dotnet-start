@@ -8,8 +8,11 @@
       "documentExposedElements": false,
       "documentInternalElements": false,
       "documentInterfaces": false,
-      "copyrightText": "Copyright (c) {companyName}. All rights reserved.",
+      "copyrightText": "Copyright © {year} {companyName}.",
       "companyName": "PlaceholderCompany",
+      "variables": {
+        "year": "2025"
+      },
       "xmlHeader": false
     }
   }
