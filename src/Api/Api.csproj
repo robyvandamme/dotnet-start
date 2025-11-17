@@ -6,6 +6,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AnalysisLevel>latest</AnalysisLevel>
     <AnalysisMode>All</AnalysisMode>
+    <NoWarn>$(NoWarn),SA1633</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>

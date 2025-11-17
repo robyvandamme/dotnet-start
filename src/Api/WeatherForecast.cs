@@ -1,8 +1,6 @@
-using System;
-
 namespace Api
 {
-    public class WeatherForecast
+    internal sealed class WeatherForecast
     {
         public DateTime Date { get; set; }
 
@@ -10,6 +8,6 @@ namespace Api
 
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
-        public string Summary { get; set; }
+        public required string Summary { get; set; }
     }
 }
